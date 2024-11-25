@@ -1,12 +1,12 @@
 def calculate_average_score(scores):
   average_score = 0
   total_score = 0
-  score_count = len(scores)
 
   for score in scores:
     total_score += score
 
-  average_score = total_score // score_count
+  # moved count of scores to be calculated here
+  average_score = total_score // len(scores)
 
   return average_score
 
