@@ -8,6 +8,9 @@ def calculate_average_score(scores):
   # moved count of scores to be calculated here
   average_score = total_score // len(scores)
 
+  average_score = (total_score / len(scores))
+
+
   return average_score
 
 # ------------------------------------------------------
